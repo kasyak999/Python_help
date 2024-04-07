@@ -1,0 +1,23 @@
+python3 -m venv test_env 
+Создание виртуальной среды
+
+source virt_okr/bin/activate
+активация
+
+deactivate
+выход
+
+pip install django
+установить джанго
+
+django-admin startproject MAIN
+создать новый проэкт джанго
+
+python manage.py runserver
+запуск джангосоздание файла
+
+pip freeze > requirements.txt
+создание файла зависимостей
+
+pip install -r requirements.txt
+установка зависимостей

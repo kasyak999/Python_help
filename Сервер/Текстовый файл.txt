@@ -1,0 +1,19 @@
+models.IntegerField() — натуральное число (INTEGER);
+models.FloatField() — число с плавающей точкой (REAL);
+models.BooleanField() — булев тип False/True (BOOL);
+models.CharField() — строка (текстовое поле с ограничением по числу символов) (VARCHAR);
+models.TextField() — текстовое поле (TEXT);
+models.DateField() — дата, как datetime.date в Python (DATE);
+models.DateTimeField() — дата и время, как datetime.datetime в Python (DATATIME);
+models.SlugField() — «слаг», для строк, состоящих только из цифр, букв латиницы и символов - и _. Обычно слаг используют для создания человекочитаемых URL;
+models.ImageField() — для изображений.
+
+Равно	=	__exact
+Сравнение с NULL	IS NULL	__exact=None
+Больше	>	__gt
+Больше или равно	>=	__gte
+Меньше	<	__lt
+Меньше или равно	<=	__lte
+Поиск по тексту	LIKE '%фраза%'	__contains='фраза'
+Вхождение в множество	IN (1, 3, 4)	__in=[1, 3, 4]
+Вхождение в диапазон	BETWEEN 1 AND 4	__range=[1, 4]

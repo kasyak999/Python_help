@@ -37,25 +37,28 @@
 - [HTML и CSS](Сервер/HTML%20и%20CSS.pdf)
 - [Python ошибки, логи, .env](Сервер/Python_%20ошибки%2C%20логи%2C%20.env%C2%A0.pdf)
 
+![img](img.png)
 
+### Джанго
 
-###
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
-- [text](qwwe)
+- [Установка DjDT](Сервер/Django/Установка_DjDT.pdf)
+- [ORM выборочное получение данных из БД](Сервер/Django/Django%20ORM_%20выборочное%20получение%20данных%20из%20БД.pdf)
+- [ORM модели, миграции, CRUD, выгрузка в JSON](Сервер/Django/Django%20ORM_%20модели%2C%20миграции%2C%20CRUD%2C%20выгрузка%20в%20JSON.pdf)
+- [Админ-зона](Сервер/Django/Django_%20админ-зона.pdf)
+- [Пагинатор](Сервер/Django/Django_%20пагинатор.pdf)
+- [Пользователи](Сервер/Django/Django_%20пользователи.pdf)
+- [Правила оформления HTML и шаблонов](Сервер/Django/Django_%20правила%20оформления%20HTML%20и%20шаблонов.pdf)
+- [Пути и view-функции](Сервер/Django/Django_%20пути%20и%20view-функции.pdf)
+- [Создание проекта и приложений](Сервер/Django/Django_%20создание%20проекта%20и%20приложений.pdf)
+- [Формы](Сервер/Django/Django_%20формы.pdf)
+- [Шаблонизатор и HTML-шаблоны](Сервер/Django/Django_%20шаблонизатор%20и%20HTML-шаблоны.pdf)
+- [Class Based Views](Сервер/Django/Django_%20Class%20Based%20Views.pdf)
+- [Описание полей моделей](Сервер/Django/Текстовый%20файл.txt)
+
+### Api и django
+
+- [REST и форматы обмена данными](Сервер/API/API_%20REST%20и%20форматы%20обмена%20данными.pdf)
+- [DRF права, лимиты, пагинация, фильтрация, поиск](Сервер/API/DRF_%20права%2C%20лимиты%2C%20пагинация%2C%20фильтрация%2C%20поиск.pdf)
+- [DRF Сериализаторы и валидаторы для связанных моделей](Сервер/API/DRF_%20Сериализаторы%20и%20валидаторы%20для%20связанных%20моделей.pdf)
+- [DRF сериализация, ViewSet, роутеры](Сервер/API/DRF_%20сериализация%2C%20ViewSet%2C%20роутеры.pdf)
+- [Telegram-боты](Сервер/API/API_%20Telegram-боты.pdf)

@@ -1,0 +1,7 @@
+sudo systemctl restart gunicorn  - перезапустите Gunicorn
+
+sudo nano /etc/nginx/sites-enabled/default 
+sudo nginx -t
+sudo systemctl reload nginx 
+
+sudo certbot certificates  - узнать информацию о сертификате

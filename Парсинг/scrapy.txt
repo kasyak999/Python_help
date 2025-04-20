@@ -1,0 +1,15 @@
+pip install scrapy
+
+scrapy startproject training_scrapy .  
+создание проекта
+
+scrapy genspider author quotes.toscrape.com
+создание нового паука
+
+scrapy crawl author -o quotes.csv 
+запуск пайка и сохранение в файл
+
+scrapy shell "http://quotes.toscrape.com/"
+
+pip install sqlalchemy
+установка SQLAlchemy

@@ -1,0 +1,18 @@
+pip install fastapi==0.78.0 
+установка
+
+pip install "uvicorn[standard]==0.17.6" 
+Веб сервер
+Установите Uvicorn:
+
+uvicorn main:app --reload
+запуск приложения
+
+Операторы сравнения описываются двухбуквенными обозначениями:
+gt:  больше чем (Greater Than), >;
+ge:  больше чем или равно (Greater than or Equal), >=;
+lt:  меньше чем (Less Than), <;
+le:  меньше чем или равно (Less than or Equal), <=.
+
+При обращении к модулю pydantic может возникнуть проблема, связанная с его обновлением. Для её решения достаточно установить новую версию модуля:
+pip install pydantic-settings 

@@ -1,0 +1,11 @@
+flask run
+запуск или python app.py
+
+# myapp — название файла, где создаётся объект приложения.
+export FLASK_APP=myapp 
+
+# Если файл с Flask-приложением называется myapp.py, запускаем так:
+flask --app=myapp run 
+
+flask run --debug 
+режим отдалдки

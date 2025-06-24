@@ -21,3 +21,10 @@ pip freeze > requirements.txt
 
 pip install -r requirements.txt
 установка зависимостей
+
+
+docker build -t kasyak999/ctypto_bot .
+создать образ
+
+sudo docker push kasyak999/ctypto_bot
+отправить образ на докерхаб

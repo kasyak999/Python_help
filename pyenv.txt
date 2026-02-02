@@ -1,0 +1,35 @@
+pyenv
+
+pyenv install --list
+доступные версии для установки
+
+pyenv install 3.12
+установить пайтон
+
+pyenv uninstall 2.7.18
+удалить версию пайтон
+
+pyenv versions
+список установленых пайтон
+
+pyenv virtualenv 3.12.9 myenv3129
+создать окружение
+
+pyenv activate myenv3129
+активировать
+
+Сделай окружение активным в папке проекта
+cd ~/мой_проект
+pyenv local myenv3129
+
+pyenv deactivate
+выйти из окружения
+
+pyenv uninstall myenv3129
+удалить окружение
+
+pyenv virtualenvs
+спиоок всех окружений
+
+# Переключаем pyenv на нужную версию
+pyenv global 3.12.2

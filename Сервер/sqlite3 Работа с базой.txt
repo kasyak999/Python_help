@@ -1,0 +1,12 @@
+sudo apt install sqlite3
+
+sqlite3 db.sqlite3
+
+.tables
+Посмотреть таблицы
+
+.mode column — отображает строки в виде таблицы с выравниванием.
+.headers on — показывает названия столбцов.
+
+SELECT * FROM coin;
+UPDATE coin SET price_buy = <новое_значение> WHERE id = 3;

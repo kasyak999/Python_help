@@ -25,7 +25,7 @@ pyenv local myenv3129
 pyenv deactivate
 выйти из окружения
 
-pyenv uninstall myenv3129
+pyenv virtualenv-delete окружение 
 удалить окружение
 
 pyenv virtualenvs
